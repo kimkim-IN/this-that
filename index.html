@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Livre Viagens</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Conecte o arquivo JavaScript aqui durante a atividade -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1 id="titulo-principal">Rota Livre Viagens</h1>
+            <p>Escolha seu próximo destino e comece a planejar sua viagem.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#inicio">Início</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#contato">Contato</a>
+            <a href="orcamentos.html">Simulador de orçamento</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section id="inicio" class="apresentacao">
+            <h2>Viajar começa com uma boa escolha</h2>
+
+            <p id="mensagem-principal">
+                Conheça algumas opções de destinos disponíveis em nossa agência.
+            </p>
+
+            <button id="btn-promocao">
+                Ver promoção do dia
+            </button>
+        </section>
+
+        <section id="destinos">
+            <h2>Destinos em destaque</h2>
+
+            <div class="cards">
+
+                <article class="card" id="card-paris">
+                    <h3>Paris</h3>
+                    <p>Uma viagem com cultura, gastronomia e pontos turísticos famosos.</p>
+                    <p class="preco">A partir de R$ 5.900</p>
+
+                    <button id="btn-saiba-mais">
+                        Saiba mais
+                    </button>
+
+                    <p id="mensagem-destino">
+                        Clique no botão para receber mais informações.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Florianópolis</h3>
+                    <p>Praias, natureza e diferentes opções de lazer.</p>
+                    <p class="preco">A partir de R$ 1.200</p>
+                </article>
+
+                <article class="card">
+                    <h3>Foz do Iguaçu</h3>
+                    <p>Natureza, turismo e uma das paisagens mais conhecidas do Brasil.</p>
+                    <p class="preco">A partir de R$ 1.500</p>
+                </article>
+
+            </div>
+
+            <button id="btn-destaque">
+                Destacar viagem para Paris
+            </button>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <p>E-mail: contato@rotalivre.com</p>
+            <p>Telefone: (00) 0000-0000</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Rota Livre Viagens | Atividade prática de HTML, CSS e JavaScript</p>
+    </footer>
+
+</body>
+</html>
